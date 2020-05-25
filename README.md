@@ -22,9 +22,9 @@ Utiliser un outils commde Dia pour le représenter. Je veux **votre** schéma, p
 
 2. Expliquer ce pattern à l'aide en complétant ce texte.
 
-Le pattern MVP, vise à découper le `.......`, de la `.......` et du `.......` afin de rendre le code plus `.......`.
-Les responsabilités ne sont alors plus `.......`.
-On peut ainsi changer l'aspect visuel de sont application sans pour autant impacter le `.......`.
+Le pattern MVP, vise à découper le modèle de la vue et du controleur afin de rendre le code plus claire.
+Les responsabilités ne sont alors plus partagées.
+On peut ainsi changer l'aspect visuel de sont application sans pour autant impacter le code métier
 
 3. Expliquer dans quels cas on doit privilégier le pattern MVC.
 
