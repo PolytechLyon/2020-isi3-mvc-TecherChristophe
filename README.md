@@ -4,9 +4,9 @@
 > **Ne restez pas bloqués bêtement, demander de l'aide**
 > Ne copier pas le code de votre voisin, ça se voit.
 
-Nom/Prénom: `.......`
+Nom/Prénom: Techer Christophe
 
-Lien du codesandbox: `.......`
+Lien du codesandbox: https://codesandbox.io/s/github/PolytechLyon/2020-isi3-mvc-TecherChristophe
 
 > Pour générer un codesandbox associé à votre code, [suiver cette doc](https://codesandbox.io/docs/importing#import-from-github)
 
