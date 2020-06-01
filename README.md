@@ -20,6 +20,11 @@ Il est inventé par [John Horton Conway](https://fr.wikipedia.org/wiki/John_Hort
 1. Expliquer le design pattern MVC à l'aide d'un schéma à insérer directement ici. 
 Utiliser un outils commde Dia pour le représenter. Je veux **votre** schéma, pas un de ceux qu'on peut trouver sur le net.
 
+![picture](Diagramme1.png)
+
+
+**Note : Le controlleur ne modifie pas directement le modèle mais induit son changement en appelant ces méthodes**
+
 2. Expliquer ce pattern à l'aide en complétant ce texte.
 
 Le pattern MVP, vise à découper le modèle de la vue et du controleur afin de rendre le code plus claire.
@@ -27,6 +32,8 @@ Les responsabilités ne sont alors plus partagées.
 On peut ainsi changer l'aspect visuel de sont application sans pour autant impacter le code métier
 
 3. Expliquer dans quels cas on doit privilégier le pattern MVC.
+
+Le pattern MVC est à privilégier pour les applications ayant une interface graphique à partir de laquelle l'utilisateur intéragit avec celle-ci. De plus, le découpage en trois partie de l'application permet de faciliter les mise à jour ainsi que les modficiations du code. Ce qui rend le pattern attrayant pour des applications qui sont voués à être modifié de manière régulière comme les applications WEB par exemple.
 
 ## A faire (obligatoire)
 
