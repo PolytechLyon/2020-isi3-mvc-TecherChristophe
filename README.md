@@ -54,6 +54,10 @@ L'objet _Model_ n'a pas de lien avec _View_ pourtant grâce à la fonction Updat
 
 2. Insérer ici un UML montrant le pattern Observer-Observable liés aux objects de ce TP.
 
+![picture](DiagrammeUML.png)
+
+J'ai choisi de faire un diagramme de séquence pour montrer comment le modèle (l'observable) notifie la vue (l'observer) au travers de sa fonction updated() et de son attribut callback. Le diagramme de classe n'étant pas pertinant puisqu'il n'existe pas de lien entre les deux classes.
+
 ## Optionel
 
 > Si vous voulez apprendre d'autres choses
