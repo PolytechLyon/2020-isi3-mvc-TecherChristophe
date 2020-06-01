@@ -29,7 +29,7 @@ Utiliser un outils commde Dia pour le représenter. Je veux **votre** schéma, p
 
 Le pattern MVP, vise à découper le modèle de la vue et du controleur afin de rendre le code plus claire.
 Les responsabilités ne sont alors plus partagées.
-On peut ainsi changer l'aspect visuel de sont application sans pour autant impacter le code métier
+On peut ainsi par exemple changer l'aspect visuel de son application sans pour autant impacter le code métier. Ceci facilite ainsi les changements dans le code une fois le pattern pris en main.
 
 3. Expliquer dans quels cas on doit privilégier le pattern MVC.
 
@@ -56,7 +56,7 @@ L'objet _Model_ n'a pas de lien avec _View_ pourtant grâce à la fonction Updat
 
 ![picture](DiagrammeUML.png)
 
-J'ai choisi de faire un diagramme de séquence pour montrer comment le modèle (l'observable) notifie la vue (l'observer) au travers de sa fonction updated() et de son attribut callback. Le diagramme de classe n'étant pas pertinant puisqu'il n'existe pas de lien entre les deux classes.
+J'ai choisi de faire un diagramme de séquence pour montrer comment le modèle (l'observable) notifie la vue (l'observer) au travers de sa fonction updated() et de son attribut callback. Le diagramme de classe n'étant pas pertinent puisqu'il n'existe pas de lien entre les deux classes.
 
 ## Optionel
 
